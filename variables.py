@@ -21,3 +21,20 @@ elif score < 90:
     print("Your grade is a B.")
 else:
     print("Your grade is an A.")
+grades = {"Eaton":90, "Morillo":85, "Borkowski":100, "Robinson":95}
+#select = input("Class to access: ")
+#ction = input("Read or write? ")
+#if action == "read":
+    #print(grades[select])
+#elif action == "write":
+    #newGrade = int(input("New grade: "))
+    #grades[select] = newGrade
+    #print(grades[select])
+someList = [1, 2, 3]
+listOne = someList
+listTwo = someList
+listThree = someList
+listOne.append([4, 5, 6])
+listTwo.append(["A", "B", "C"])
+listThree.append([3.1, 3.2, 4.5])
+print(someList) # a visual representation of no communication
